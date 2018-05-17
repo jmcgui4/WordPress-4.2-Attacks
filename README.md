@@ -1,0 +1,1 @@
+# WordPress-4.2-Authenticated-Stored-Cross-Site-Scripting
