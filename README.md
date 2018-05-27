@@ -26,32 +26,16 @@ Time spent: *17** hours spent in total
     - Fixed in version:  
   - [ ] GIF Walkthrough: 
   - [ ] Steps to recreate: Type http://wpdistillery.vm/readme.html as a URL and click enter. Will reveal the version of WP that is being used.
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-3. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
+  
+3. (Required) Privilege Escalation
+  - [ ] Summary: This is where a user is created, specifically a Contributor or Author. After an Admin approves a comment from the user, the rest of the comments don't need approval. 
+    - Vulnerability types:Privilege Escalation
+    - Tested in version:4.2
     - Fixed in version: 
   - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php) 
+  - [ ] Steps to recreate: 1.Create a Contributor or Author as a new user.
+                           2.In a separate browser log in to the new user account and create a comment then post it. There will be a notification that will say something about waiting for moderation (by the admin).
+                           3.Go back to the Admin login and approve the comment that is awaiting approval.
+                           4.Go back to the new user login and make create another comment and post it, there will not be a notification about awaiting moderation.
+  
+    
